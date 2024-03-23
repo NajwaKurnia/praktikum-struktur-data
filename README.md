@@ -40,3 +40,21 @@ Dalam bahasa pemograman c sebuah struct adalah kumpulan variabel yang berisi tip
 Ada 2 tipe operator yang digunakan untuk mengakses sebuah struct.<br>
 1. '.' -Member operator.<br>
 2. '->' -Operator digunakan untuk pointer.<br>
+***
+## [Jobsheet 3-Single Linked List]
+
+Single linked list adalah struktur data linear yang terdiri dari sejumlah simpul(node) yang terhubung satu sama lain dengan menggunakan pointer. Setiap simpul memiliki dua bagian, data pointer yang menunjuk ke simpul berikutnya dalam daftar. Di simpul terakhir, pointer menunjuk ke nilai null, menandakan akhir dari linked list.
+
+#### Simpul/Nodes
+Sebuah simpul/node berisi alamat dan kumpulan data, dalam sebuah simpul/node keduanya dibungkus menjadi sebuah objek berupa struct.
+#### Penggunaan alokasi memory
+Alokasi memori menyediakan fasilitas untuk membuat ukuran buffer dan array secara dinamik. Dinamik artinya bahwa ruang dalam memori akan dialokasikan ketika program dieksekusi (run time). Fasilitas ini memungkinkan user untuk membuat tipe data dan struktur dengan ukuran dan panjang berapapun yang disesuaikan dengan kebutuhan di dalam program.<br>
+1. Perintah sizeof()
+  sebelum kita menggunakan alokasi memori, kita harus mengenal perintah sizeof. Ini digunakan untuk
+   - mendapatkan ukuran dari berbagai tipe data, variabel ataupun struktur.
+   - return value: ukuran dari obyek yang bersangkutan dalam byte.
+   - parameter dari sizeof(): sebuah obyek atau sebuah tipe data.<br>
+2. Perintah malloc()
+   Fungsi standar dalam c yang digunakan untuk mengalokasikan memori adalah malloc(). Fungsi dari malloc() ini adalah: void *malloc(int jml_byte) banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi. Return value dari fungsi ini adalah sebuah pointer yang tidak bertipe (pointer to void) yang menunujuk ke buffer yang dialokasikan. Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
+#### Single Link List
+Sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa menyimpan data yang mana isinya bisa char, int, string, atau tipe data lainnya. Linked list ini dibuat demikian dengan tujuan mengurutkan data, linked list ini memiliki kemampuan untuk memutuskan urutan data, Linked list ini memiliki kemampuan untuk memutuskan urutan data kemudian menyambungkannya lagi.
