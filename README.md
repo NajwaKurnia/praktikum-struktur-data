@@ -79,3 +79,13 @@ Jenis proses insertion()
 2. penambahan setelah simpul yang ditentukan.
 3. Di simpul yang paling akhir.
 4. Penambahan sebelum simpul yang ditentukan.
+***
+## [Jobsheet 5- Double Linked List and Circular Linked List](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/bfb748b221932ecdda21de74fa1875d444675abf)
+
+#### Double Linked List
+Double linked list elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev). Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertama menunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elemen terakhit menunjuk NULL.
+
+Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev dari elemen yang berurutan pada arah tail ke head. Double linked list mempunyai fleksibelitas yang lebih tinggi dari pada single linked list dalam perpindahan pada list.
+
+#### Circular linked list
+circular list adalah bentuk lain dari linked list yang memberikan fleksibelitas dalam melewatkan elemen. Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. pada circular list, pointer next dari elemen terakhir menunjuk ke elemen pertaman dan bukan menunjuk NULL. pada double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
