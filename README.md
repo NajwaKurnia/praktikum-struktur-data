@@ -62,6 +62,7 @@ Sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap s
 ## [Jobsheet 4-Doubly Linked List](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/1a528a0d1b0bcafff9b27204dc753998eb0eca63)
 
 Doubly linked list (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama dnegan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly link list memiliki 2 arah data yakni next dan previous.
+
 Kelebihan doubly link list dibandingkan single link list
 1. DLL bisa berjalan dalam 2 arah ke depan dan kebelakang.
 2. Operasi penghapusan atau deletion() lebih efisien dan simple menggunakan pointer yang menunjuk ke simpul yang akan dihapus.
