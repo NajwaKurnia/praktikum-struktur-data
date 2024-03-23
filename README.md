@@ -41,7 +41,7 @@ Ada 2 tipe operator yang digunakan untuk mengakses sebuah struct.<br>
 1. '.' -Member operator.<br>
 2. '->' -Operator digunakan untuk pointer.<br>
 ***
-## [Jobsheet 3-Single Linked List]
+## [Jobsheet 3-Single Linked List](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/87df167858d5d79df2410c40b75bd85373bb148a)
 
 Single linked list adalah struktur data linear yang terdiri dari sejumlah simpul(node) yang terhubung satu sama lain dengan menggunakan pointer. Setiap simpul memiliki dua bagian, data pointer yang menunjuk ke simpul berikutnya dalam daftar. Di simpul terakhir, pointer menunjuk ke nilai null, menandakan akhir dari linked list.
 
