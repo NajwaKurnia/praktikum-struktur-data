@@ -58,3 +58,23 @@ Alokasi memori menyediakan fasilitas untuk membuat ukuran buffer dan array secar
    Fungsi standar dalam c yang digunakan untuk mengalokasikan memori adalah malloc(). Fungsi dari malloc() ini adalah: void *malloc(int jml_byte) banyaknya byte yang akan dipesan dinyatakan sebagai parameter fungsi. Return value dari fungsi ini adalah sebuah pointer yang tidak bertipe (pointer to void) yang menunujuk ke buffer yang dialokasikan. Jika proses alokasi gagal dilakukan, fungsi ini akan memberikan return value berupa sebuah pointer NULL.
 #### Single Link List
 Sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa menyimpan data yang mana isinya bisa char, int, string, atau tipe data lainnya. Linked list ini dibuat demikian dengan tujuan mengurutkan data, linked list ini memiliki kemampuan untuk memutuskan urutan data, Linked list ini memiliki kemampuan untuk memutuskan urutan data kemudian menyambungkannya lagi.
+***
+## [Jobsheet 4-Doubly Linked List
+
+Doubly linked list (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama dnegan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly link list memiliki 2 arah data yakni next dan previous.
+Kelebihan doubly link list dibandingkan single link list
+1. DLL bisa berjalan dalam 2 arah ke depan dan kebelakang.
+2. Operasi penghapusan atau deletion() lebih efisien dan simple menggunakan pointer yang menunjuk ke simpul yang akan dihapus.
+3. Dapat melakukan proses insert() simpul lebih efisien.
+
+Dalam single link list penghapusan simpul, pointer simpul data sebelumnya diperlukan san untuk mendapatkannya terkadang list data diulang dari awal. Berbeda dengan dobly link list kita langsung dapat pointer simpul data sebelumnya menggunakan pointer previous.
+
+Kelemahan dobly link list
+1. Setiap simpul DLL membutuhkan ruang memory tambahan untuk pointer.
+2. Setiap operasi yang dilakukan harus mencantumkan pointer simpul sebelumnya.
+
+Jenis proses insertion()
+1. penambahan simpul didepan.
+2. penambahan setelah simpul yang ditentukan.
+3. Di simpul yang paling akhir.
+4. Penambahan sebelum simpul yang ditentukan.
