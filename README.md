@@ -89,3 +89,23 @@ Untuk melintas kembali melalui double linked list, dapat digunakan pointer prev 
 
 #### Circular linked list
 circular list adalah bentuk lain dari linked list yang memberikan fleksibelitas dalam melewatkan elemen. Circular list bisa berupa single linked list atau double linked list, tetapi tidak mempunyai tail. pada circular list, pointer next dari elemen terakhir menunjuk ke elemen pertaman dan bukan menunjuk NULL. pada double linked circular list, pointer prev dari elemen pertama menunjuk ke elemen terakhir.
+***
+## [Jobsheet 6- Stack](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/79e3beb60c2f082d28546042e6ee0fc2821bab52)
+
+#### Stack
+Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan demikian stack adalah struktur data yang menggunakan konsep LIFO. Elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi, untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push, untuk memindahkan dari tempat yang atas disebut pop.
+
+#### Stack dengan array
+Bentuk penyajian stack bisa menggunakan tipe data array, tetapi ebenarnya penyajian stack memnggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis, sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Array bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya elemen maksimal dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Bila diteruskan menambah data, maka akan terjadi overflow. Ada dua macam penyajian stack menggunakan array, yaitu Single stack dan Double stack.
+
+#### Operasi pada stack
+1. Push digunakan untuk menambahkan elemen atau data baru dalam tumpukan. Elemen baru tersebut pasti akan menjadi elemen yang paling atas dalam tumpukan setiap kali ditambahkan. Sebelum menambahkan elemen baru kita harus memastikan tumpukan belum penuh.
+2. Pop digunakan untuk menghapus elemen yang berada pada posisi paling atas dari stack.
+3. Peek digunakan untuk mengecek elemen atau data paling atas tanpa menghapusnya dari stack.
+4. isFull digunakan untuk memeriksa apakah kondisi stack sudah penuh.
+   Dengan cara:
+   - menambah satu (increment) nilai TOP of STACK ada penmabahan elemen stack selama stack masih belum penuh.
+   - Isikan nilai baru ke stack berdasarkan indeks TOP of STACK setelah ditambah satu (increment).
+5. isEmpty digunakan untuk memeriksa apakah stack masih dalam kondisi kosong.
+   Dengan cara, memeriksa TOP of STACK masih = -1 maka berarti stack masih kosong.
+7. Clear digunakan untuk mengosongkan stack.
