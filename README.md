@@ -109,3 +109,26 @@ Bentuk penyajian stack bisa menggunakan tipe data array, tetapi ebenarnya penyaj
 5. isEmpty digunakan untuk memeriksa apakah stack masih dalam kondisi kosong.
    Dengan cara, memeriksa TOP of STACK masih = -1 maka berarti stack masih kosong.
 7. Clear digunakan untuk mengosongkan stack.
+***
+## [Joobsheet 7-Queue]
+
+#### Konsep Queue
+Sebuah antrian sangat berguna pada pemograman struktur data. Antrian menggunakan prinsip FIFO First In First Out. Item yang mendapatkan giliran pertama adalah item yang pertama keluar. Dalam istilah pemograman, meletakkan sebuah item ke dalam antrian disebut "enqueue" dan menghapusnya disebut "dequeue".
+
+#### Spesifikasi Queue
+Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yang memiliki operasi sebagai berikut:
+- Enqueue: Menambahkan elemen ke akhir antrian.
+- Dequeue: menghapus elemen dari depan antrian.
+- IsEmpty: memeriksa apakah antrian kosong.
+- IsFull: memeriksa apakah antrian penuh.
+- Peek: mendapatkan nilai antrian depan tanpa menghapusnya.
+
+#### Cara Kerja Queue
+1. Dua pointer yang disebut FRONT dan REAR digunakan untuk melacak elemen pertama dan terakhir dalam antrian.
+2. Saat menginisialisasi antrian, kami menetapkan nilai FRONT dan REAR ke -1.
+3. Pada enqueing elemen, kita meningkatkan nilai indeks REAR dan menempatkan elemen baru di posisi yang ditunjuk oleh REAR.
+4. Pada dequeueing suatu elemen, kita mengembalikan nilai yang ditunjuk oleh FRONT dan meningkatkan indeks FRONT.
+5. Sebelum enqueing, kami memeriksa apakah antrian sudah penuh.
+6. Sebelum dequeueing, kami memeriksa apakah antrian sudah kosong.
+7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
+8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
