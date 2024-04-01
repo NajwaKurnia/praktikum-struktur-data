@@ -110,7 +110,7 @@ Bentuk penyajian stack bisa menggunakan tipe data array, tetapi ebenarnya penyaj
    Dengan cara, memeriksa TOP of STACK masih = -1 maka berarti stack masih kosong.
 7. Clear digunakan untuk mengosongkan stack.
 ***
-## [Joobsheet 7-Queue]
+## [Joobsheet 7-Queue](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/59b9ac253304e102912360cc077842399dcae801)
 
 #### Konsep Queue
 Sebuah antrian sangat berguna pada pemograman struktur data. Antrian menggunakan prinsip FIFO First In First Out. Item yang mendapatkan giliran pertama adalah item yang pertama keluar. Dalam istilah pemograman, meletakkan sebuah item ke dalam antrian disebut "enqueue" dan menghapusnya disebut "dequeue".
