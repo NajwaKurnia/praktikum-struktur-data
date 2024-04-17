@@ -132,3 +132,16 @@ Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yan
 6. Sebelum dequeueing, kami memeriksa apakah antrian sudah kosong.
 7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
 8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
+***
+## [Joobshet 8- Bubble and Insertion Sort]
+
+#### Pengertian Pengurutan Data
+Pengurutan data adalah salah satu proses yang banyak dijumpai dalam aplikasi dengan menggunakan komputer. Pengurutan membuat data disusun dalam keadaan urut menurut aturan tertentu, misal dari nilai kecil ke nilai terbesar untuk bilangan atau dari A-Z untuk string. Data yang telah diurutkan dalam sebuah laporan memudahkan kita untuk dibaca dan dipahami oleh si pemakai.
+
+#### Teknik Pengurutan Data
+Beberapa teknik terkenal untuk mengurutkan data, yaitu buble sort, insertion sort, selection sort, mergesort, heapsort, dan binary sort. Tiga yang pertama dikenal sebagai cara pengurutan dasar.
+1. Bubble sort
+   Bubble sort adalah salah satu algoritma untuk sorting data, atau kata lainnya mengurutkan data dari yang terbesar ke yang terkecil atau sebaliknya. Bubble sort adalah metode/algoritma pengurutan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan.
+2. Insertion sort
+   Insertion sort bekerja sama halnya dengan saat kita bermain mengurutkan kartu di tangan. Insertion sort adalah sebuah algoritma yang meletakkan sebuah data/elemen yang belum urut pada tempat yang cocok pada setiap siklus pengurutan.
+   
