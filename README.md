@@ -133,7 +133,7 @@ Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yan
 7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
 8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
 ***
-## [Joobshet 8- Bubble and Insertion Sort]
+## [Joobshet 8- Bubble and Insertion Sort](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-8%20bubble%20and%20insertion%20sort)
 
 #### Pengertian Pengurutan Data
 Pengurutan data adalah salah satu proses yang banyak dijumpai dalam aplikasi dengan menggunakan komputer. Pengurutan membuat data disusun dalam keadaan urut menurut aturan tertentu, misal dari nilai kecil ke nilai terbesar untuk bilangan atau dari A-Z untuk string. Data yang telah diurutkan dalam sebuah laporan memudahkan kita untuk dibaca dan dipahami oleh si pemakai.
