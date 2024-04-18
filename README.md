@@ -110,7 +110,7 @@ Bentuk penyajian stack bisa menggunakan tipe data array, tetapi ebenarnya penyaj
    Dengan cara, memeriksa TOP of STACK masih = -1 maka berarti stack masih kosong.
 7. Clear digunakan untuk mengosongkan stack.
 ***
-## [Joobsheet 7-Queue](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/59b9ac253304e102912360cc077842399dcae801)
+## [Jobsheet 7-Queue](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/59b9ac253304e102912360cc077842399dcae801)
 
 #### Konsep Queue
 Sebuah antrian sangat berguna pada pemograman struktur data. Antrian menggunakan prinsip FIFO First In First Out. Item yang mendapatkan giliran pertama adalah item yang pertama keluar. Dalam istilah pemograman, meletakkan sebuah item ke dalam antrian disebut "enqueue" dan menghapusnya disebut "dequeue".
@@ -133,7 +133,7 @@ Sebuah antrian dinamakan juga dengan sebuah objek atau lebih spesifiknya ADT yan
 7. Saat membuat elemen pertama, kami menetapkan nilai FRONT ke 0.
 8. Saat mendekor elemen terakhir, kita mereset nilai FRONT dan REAR ke -1.
 ***
-## [Joobshet 8- Bubble and Insertion Sort](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-8%20bubble%20and%20insertion%20sort)
+## [Jobshet 8- Bubble and Insertion Sort](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-8%20bubble%20and%20insertion%20sort)
 
 #### Pengertian Pengurutan Data
 Pengurutan data adalah salah satu proses yang banyak dijumpai dalam aplikasi dengan menggunakan komputer. Pengurutan membuat data disusun dalam keadaan urut menurut aturan tertentu, misal dari nilai kecil ke nilai terbesar untuk bilangan atau dari A-Z untuk string. Data yang telah diurutkan dalam sebuah laporan memudahkan kita untuk dibaca dan dipahami oleh si pemakai.
@@ -144,4 +144,19 @@ Beberapa teknik terkenal untuk mengurutkan data, yaitu buble sort, insertion sor
    Bubble sort adalah salah satu algoritma untuk sorting data, atau kata lainnya mengurutkan data dari yang terbesar ke yang terkecil atau sebaliknya. Bubble sort adalah metode/algoritma pengurutan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan.
 2. Insertion sort
    Insertion sort bekerja sama halnya dengan saat kita bermain mengurutkan kartu di tangan. Insertion sort adalah sebuah algoritma yang meletakkan sebuah data/elemen yang belum urut pada tempat yang cocok pada setiap siklus pengurutan.
-   
+***
+## [Jobshet 9-Selection and Merge Sort](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-9%20selection%20and%20merge%20sort)
+
+#### Selection Sort
+Selection sort adalah sebuah algoritma yang digunakan untuk mencari dan memilih elemen/data terkecil dalam sebuah list yang belum tersusun dalam setiap iterasi dan menempatkan elemen terkecil di urutan paling depan dari urutan list data.<br>
+Cara kerja Selection sort:<br>
+1. Tentukan elemen pertaman dari urutan menjadi elemen terkecil masukkan sebagai elemen "minimum".
+2. Bandingkan minimum dengan urutan elemen kedua. Jika elemen kedua lebih kecil dibandingkan minimum, jadikan elemen kedua sebagai minimum. Bandingkan kembali minimum dengan elemen ketiga. Lakukan secara terus menerus sampai dengan elemen yang terakhir.
+3. Setelah setiap perulangan, minimum ditempatkan di paling depan urutan list data.
+4. Pada setiap pengulangan, indeksasi (pemberian alamat) dimulai dari elemen pertama dari  list. Langkah 1-3 dilakukan berulang kali sampai keseluruhan elemen digantikan pada posisi yang terurut.
+
+#### Merge Sort
+Merge sort adalah sebuah teknik pengurutan berdasarkan teknik membagi dan menggabungkan (divide and conquer). Menggunakan merge sort hal pertama yang dilakukan adalah membagi sama banyak data kemudian menggabungkannya dalam list data yang terurut.
+
+#### Divide and Conquer strategy
+Menggunakan teknik Divide and Conquer, langkah pertama bagi sebuah permasalahan menjadi sub bagian kecil permasalahan. Di saat sub permasalahan telah diselesaikan dan siap, gabungkan hasil dari sub permasalahan untuk memecahkan masalah utama.
