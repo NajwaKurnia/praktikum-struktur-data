@@ -161,7 +161,7 @@ Merge sort adalah sebuah teknik pengurutan berdasarkan teknik membagi dan mengga
 #### Divide and Conquer strategy
 Menggunakan teknik Divide and Conquer, langkah pertama bagi sebuah permasalahan menjadi sub bagian kecil permasalahan. Di saat sub permasalahan telah diselesaikan dan siap, gabungkan hasil dari sub permasalahan untuk memecahkan masalah utama.
 ***
-## [Jobsheet 10-Shell and Quick sort]
+## [Jobsheet 10-Shell and Quick sort](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-10%20shell%20and%20Quick%20short)
 
 #### Shell sort
 Shell sort adalah sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. pada prinsipnya sama dengan insertion sort. Dalam pengurutan Shell sort, elemen/data diurutkan dengan interval yang terukur.Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan dilakukan.<br>
