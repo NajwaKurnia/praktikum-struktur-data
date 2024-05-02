@@ -160,3 +160,34 @@ Merge sort adalah sebuah teknik pengurutan berdasarkan teknik membagi dan mengga
 
 #### Divide and Conquer strategy
 Menggunakan teknik Divide and Conquer, langkah pertama bagi sebuah permasalahan menjadi sub bagian kecil permasalahan. Di saat sub permasalahan telah diselesaikan dan siap, gabungkan hasil dari sub permasalahan untuk memecahkan masalah utama.
+***
+## [Jobsheet 10-Shell and Quick sort]
+
+#### Shell sort
+Shell sort adalah sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. pada prinsipnya sama dengan insertion sort. Dalam pengurutan Shell sort, elemen/data diurutkan dengan interval yang terukur.Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan dilakukan.<br>
+Beberapa macam formula urutan yang digunakan:
+- Shell's original sequence: N/2, N'4, ..., 1
+- Knuth's increment: 1, 4, 13, ..., (3k-1)/2
+- Sedgewick's increment: 1, 8, 23, 77, 281, 1073, 4293, 16577, ..., 4j+1+3.2j+1.<br>
+Cara kerja Shell sort:
+1. Urutkan array yang ada.
+2. Menggunakan formula original shell (N/2, N/4, ...1) sebagai interval yang akan digunakan dalam algoritma.<br>
+   Pada fase pertama, jika besar array N=8 maka jarak interval elemen menggunakan     rumus N/2=4, akan dibandingkan dan ditukar jika belum sesuai urutan.
+  - Elemen indeks ke 0 dibandingkan dengan indeks elemen ke 4.
+  - Jika elemen ke 0 (elemen 0 lebih besar daripada ke 4 lalu elemen ke 4             disimpan ke dalam variabel temp dan elemen ke 0 (elemen 0 nilai lebih besar)      dipindahkan ke posisi elemen ke 4 dan elemen yang disimpan dalam variabel         temp pindahkan ke posisi ke 0.
+3. Pada pengulangan kedua rumus formula interval yang digunakan N/4=8/4=2.
+4. proses yang sama berlaku untuk elemen yang tersisa.
+5. Pada akhirnya sampai pada fase akhir di saat interval N/8=8/8=1, elemen dengan interval 1 diurutkan.<br>
+Implementasi program Shell sort.<br>
+Shell sort digunakan saat:
+- uClibc library menggunakan pengurutan ini.
+- bzip2 compressor menggunakan algoritma ini juga.
+- pengurutan insertion kurang baik saat elemen yang dekat berjauhan. Shell sort membantu dalam mengurangi jarak pertukaran elemen data sehingga terjadi pengurangan data yang akan di tukar.
+
+#### Quick sort
+Seperti halnya Merge sort, Quick sort menggunakan algoritma divide dan conquer. Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot. Terdapat banyak versi dari Quick sort yang mengambil pivot dengan cara yang berbeda-beda. Diantaranya:
+1. Selalu mengambil elemen pertama sebagai pivot.
+2. Selalu mengambil elemen terakhir sebgai pivot.
+3. Elemen acak sebagai pivot.
+4. Elemen yang ditengah sebagai pivot.<br>
+Kunci dari proses quick sort adalah partisi(). Targetdari partisi adalah array sebuah array dan sebuah elemen x dari array sebagai pivot, letakkan x pada posisi yang benar dalam array yang terurut dan letakkan semua elemen yang lebih kecil (lebih kecil dari x) sebelum elemn x, dan tempatkan semua elemen yang lebih besar dari x setelah x.
