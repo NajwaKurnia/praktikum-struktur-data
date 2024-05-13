@@ -191,3 +191,28 @@ Seperti halnya Merge sort, Quick sort menggunakan algoritma divide dan conquer. 
 3. Elemen acak sebagai pivot.
 4. Elemen yang ditengah sebagai pivot.<br>
 Kunci dari proses quick sort adalah partisi(). Targetdari partisi adalah array sebuah array dan sebuah elemen x dari array sebagai pivot, letakkan x pada posisi yang benar dalam array yang terurut dan letakkan semua elemen yang lebih kecil (lebih kecil dari x) sebelum elemn x, dan tempatkan semua elemen yang lebih besar dari x setelah x.
+***
+## [Jobsheet 11-Linear search and Binary search]()
+
+Algoritma penacarian adalah algoritma yang menerima sebuah argumen kunci dan dengan langkah-langkah tertentu akan mencari rekaman dengan kunci tersebut. Setelah proses pencarian dilaksanakan, akan diperoleh salah satu dari dua kemungkinan, yaitu data yang dicari ditemukan atau tidak ditemukan.<br>
+Ada dua macam teknik pencarian yaitu pencarisan sekuensial dan pencarian biner. Perbedaan dari dua teknik ini terletak pada keadaan data. Pencarian biner digunakan apabila data dalam keadaan acak atau tidak terurut. Pencarian biner data yang sudah dalam keadaan terurut.<br>
+
+#### Linear search
+Algoritma pencarian dapat dijelaskan sebagi berikut:<br>
+Pencarian dimulai dari data paling awal, kemudian ditelusuri dengan menaikkan indeks data, apabila data sama dengan kunci pencarian dihetikan dan diberikan nilai pengembalian true, apabila sampai indeks terakhir data tidak diteukan maka diberikan nilai pengembalian false.<br>
+Algoritma pencarian berurutan dapat dituliskan sebagai berikut:<br>
+1. i <- 0
+2. ketemu <- false
+3. Selama (tidak ketemu) dan (i <= N)kerjakan baris 4
+4. Jika(data[i]=x) maka ketemu <- true, jika tidak i <- i+1
+5. Jika(ketemu) maka i adalah indeks dari data yang dicari, jika tidak data tidka ditemukan.
+
+#### Binary search
+Salah satu syarat agar pencarian biner dapat dilakukan adalah data udah dalam keadaan terurut. Dengan kata lain, apabila data belum dalam keadaan urut, pencarian biner tidak dapat dilakukan.<br>
+Algoritma binary search:<br>
+1. Data diambil dari posisi 1 sampai posisi akhir N.
+2. Kemudian cari posisi data tengah dnegan rumus: (posisi awal+ posisi akhir)/2.
+3. Kemudian data yang dicari dibandingkan dengan cata yang ditengah, apakah sama atau lebih kecil, atau lebih besar.
+4. Jika lebih besar, maka proses pencarian dicari dengan posisi awal adalah posisi tengah + 1.
+5. Jika lebih kecil, maka proses pencarian dicari dengan posisi akhir adalah posisi tengah - 1.
+6. Jika data sama, berarti ketemu.
