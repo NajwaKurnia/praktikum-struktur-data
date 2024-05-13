@@ -192,7 +192,7 @@ Seperti halnya Merge sort, Quick sort menggunakan algoritma divide dan conquer. 
 4. Elemen yang ditengah sebagai pivot.<br>
 Kunci dari proses quick sort adalah partisi(). Targetdari partisi adalah array sebuah array dan sebuah elemen x dari array sebagai pivot, letakkan x pada posisi yang benar dalam array yang terurut dan letakkan semua elemen yang lebih kecil (lebih kecil dari x) sebelum elemn x, dan tempatkan semua elemen yang lebih besar dari x setelah x.
 ***
-## [Jobsheet 11-Linear search and Binary search]()
+## [Jobsheet 11-Linear search and Binary search](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-11%20Linear%20and%20Binary%20search)
 
 Algoritma penacarian adalah algoritma yang menerima sebuah argumen kunci dan dengan langkah-langkah tertentu akan mencari rekaman dengan kunci tersebut. Setelah proses pencarian dilaksanakan, akan diperoleh salah satu dari dua kemungkinan, yaitu data yang dicari ditemukan atau tidak ditemukan.<br>
 Ada dua macam teknik pencarian yaitu pencarisan sekuensial dan pencarian biner. Perbedaan dari dua teknik ini terletak pada keadaan data. Pencarian biner digunakan apabila data dalam keadaan acak atau tidak terurut. Pencarian biner data yang sudah dalam keadaan terurut.<br>
