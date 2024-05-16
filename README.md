@@ -217,7 +217,7 @@ Algoritma binary search:<br>
 5. Jika lebih kecil, maka proses pencarian dicari dengan posisi akhir adalah posisi tengah - 1.
 6. Jika data sama, berarti ketemu.
 ***
-## [Jobsheet-12 Tree]()
+## [Jobsheet-12 Tree](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-12%20Tree)
 
 #### Tree Traversal
 Traverse atau melintasi sebuah pohon data/tree artinya mengunjungi semua simpul yang ada pada pohon tersebut. Ada beberapa hal yang dapat dilakukan contoh jika ingin menambah nilai semua data pada pohon tersebut atau mencari nilai tertinggi diantaranya. Untuk operasi-operasi tersebut, harus dilakukan mengunjungi setiap simpul dari pohon data.<br>
