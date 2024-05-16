@@ -216,3 +216,23 @@ Algoritma binary search:<br>
 4. Jika lebih besar, maka proses pencarian dicari dengan posisi awal adalah posisi tengah + 1.
 5. Jika lebih kecil, maka proses pencarian dicari dengan posisi akhir adalah posisi tengah - 1.
 6. Jika data sama, berarti ketemu.
+***
+## [Jobsheet-12 Tree]()
+
+#### Tree Traversal
+Traverse atau melintasi sebuah pohon data/tree artinya mengunjungi semua simpul yang ada pada pohon tersebut. Ada beberapa hal yang dapat dilakukan contoh jika ingin menambah nilai semua data pada pohon tersebut atau mencari nilai tertinggi diantaranya. Untuk operasi-operasi tersebut, harus dilakukan mengunjungi setiap simpul dari pohon data.<br>
+Struktur data linear seperti array, stack/tumpukan, queues/antrian dan LinkedList hanya memiliki satu jalan untuk membaca sebuah data. Berbeda dengan struktur data yang bentuknya hirarki seperti tree/pohon dapat dijelajahi dnegan berbagai cara.<br>
+Tujuan mengunjungi dan mendata setiap simpul/node, yang harus dilakukan adalah mengunjungi semua node/simpul di dalam subtree, mengunjungi root node atau node paling atas dan mengunjungi node yang ada di kanan subtree.<br>
+Berdasarkan urutan yang akan dilakukan, terdapat 3 cara melintasi tree tersebut:
+1. Inorder Traversal, langkah-langkahnya:<br>
+   - Kunjungi semua nodes/simpul disebelah kiri subtree.
+   - Kemudian kunjungi root node/simpul paling atas.
+   - Kunjungi semua simpul yang ada di kanan subtree.
+2. Preorder Traversal
+   - Visit root node.
+   - Visit all the node in the left subtree.
+   - Visit all the ode in the right subtree.
+3. Post order Traversal
+   - Visit all the nodes in the left subtree.
+   - Visit all the nodes in the right subtree.
+   - Visit the root node.
