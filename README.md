@@ -236,3 +236,21 @@ Berdasarkan urutan yang akan dilakukan, terdapat 3 cara melintasi tree tersebut:
    - Visit all the nodes in the left subtree.
    - Visit all the nodes in the right subtree.
    - Visit the root node.
+***
+## [Jobsheet-13 Graphs](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-13%20Graphs)
+
+#### Depth First Search/Traversal
+Traversal artinya mengunjungi semua simpul/node dari sebuah graph. DFS atau DFT adalah sebuah algoritma pencarian rekursif untuk mencari semua titik yang ada pada sebuah graph atau pohon simpul.<br>
+
+Algoritma DFS.<br>
+Implementasi sederhana dari sebuah DFS adalah membagi setiap titik pada sebuah graph atau tree menjadi 2 kategori:<br>
+1. Visited
+2. Not Visited
+Tujuan dari algoritma ini adalah untuk menandai setiap titik/vertex yang telah dikunjungi sambil menghindari titik yang telah dikunjungi.<br>
+
+Cara kerja algoritma DFS:<br>
+1. Dimulai dengan meletakkan salah satu dari titik graph di atas sebuah tumpukan.
+2. Ambil item paling atas dari tumpukan dan tambahkan dalam daftar titik yang telah dikunjungi.
+3. Buatlah sebuah daftar titik yang segaris lurus dengannya. Tambahkan satu yangmana belum dikunjungi pada tumpukan paling atas.
+4. Ulangi langkah ke 2 dan 3 sampai dengan tumpukan menjadi kosong.
+
