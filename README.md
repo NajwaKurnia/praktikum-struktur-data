@@ -19,14 +19,19 @@ Konstanta digunakan untuk menyatakan nilai tetap sedangkan variable digunakan da
 struktur data yang standar digunakan dibidang informatika adalah:
 - List Linear (Linked List) senarai dan variasinya<br>
   ![download](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/dc82714b-5f26-49ab-b813-0f0b3c79b481)
+  
 - Multilist<br>
 ![multi lis](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/fcb24a9d-951b-4744-aa8c-6fb27fb340b9)
+
 - stack (Tumpukan)<br>
 ![stack](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/98bac58b-aecb-4e4f-ad76-a6b1ac55e880)
+
 - Queue (antrian)<br>
 ![queue](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/360c08fb-8c9d-4995-ba90-1d40c46b928c)
+
 - Tree (pohon)<br>
-![tree](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/b4bba423-8076-4225-81ac-5779711fdc4c)
+![tree](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/80bcc42b-90b3-4406-a8c3-4610ef44f02d)
+
 - Graph (graf)<br>
 ![graph](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/9bb75af1-423d-49e1-b7da-84047a3a7be7)
 
