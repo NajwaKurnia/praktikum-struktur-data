@@ -20,7 +20,7 @@ struktur data yang standar digunakan dibidang informatika adalah:
 - List Linear (Linked List) senarai dan variasinya<br>
   ![download](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/dc82714b-5f26-49ab-b813-0f0b3c79b481)
 - Multilist<br>
-![multi list](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/61a3e131-8ada-4797-afc4-a2e42123c28b)
+![multi lis](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/fcb24a9d-951b-4744-aa8c-6fb27fb340b9)
 - stack (Tumpukan)<br>
 ![stack](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/98bac58b-aecb-4e4f-ad76-a6b1ac55e880)
 - Queue (antrian)<br>
