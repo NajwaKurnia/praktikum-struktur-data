@@ -17,12 +17,19 @@ Sedangkan Data adalah representasi dari fakta dunia nyata. Fakta atau keterangan
 Konstanta digunakan untuk menyatakan nilai tetap sedangkan variable digunakan dalam program untuk menyatakan nilai yang dapat berubah-ubah selang eksekusi berlangsung.
 
 struktur data yang standar digunakan dibidang informatika adalah:
-- List Linear (Linked List) senarai dan variasinya
-- Multilist
-- stack (Tumpukan)
-- Queue (antrian)
-- Tree (pohon)
-- Graph (graf)
+- List Linear (Linked List) senarai dan variasinya<br>
+  ![download](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/dc82714b-5f26-49ab-b813-0f0b3c79b481)
+- Multilist<br>
+![multi list](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/61a3e131-8ada-4797-afc4-a2e42123c28b)
+- stack (Tumpukan)<br>
+![stack](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/98bac58b-aecb-4e4f-ad76-a6b1ac55e880)
+- Queue (antrian)<br>
+![queue](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/360c08fb-8c9d-4995-ba90-1d40c46b928c)
+- Tree (pohon)<br>
+![tree](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/b4bba423-8076-4225-81ac-5779711fdc4c)
+- Graph (graf)<br>
+![graph](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/9bb75af1-423d-49e1-b7da-84047a3a7be7)
+
 ***
 ## [Jobsheet 2- Array, pointer, structure](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/745cfe7c51423f51f712b2072bcdea7e867d9fcf)
 
