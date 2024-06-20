@@ -6,7 +6,6 @@ Kode Kelas: INF1.62.2014 <br>
 seksi: 202323430156 <br>
 Nama: Najwa Kurnia<br>
 Nim: 23343058<br>
-***
 
 ![JOBSHEET](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/9341bb9b-c017-442e-af3a-750ec6433667)
 
