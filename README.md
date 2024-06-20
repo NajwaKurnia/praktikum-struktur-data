@@ -39,7 +39,9 @@ struktur data yang standar digunakan dibidang informatika adalah:
 ## [Jobsheet 2- Array, pointer, structure](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/745cfe7c51423f51f712b2072bcdea7e867d9fcf)
 
 #### Array
-Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen array dapat diakses langsung (acak). Indeks dimulai dari 0 pada bahasa pemograman c ini. Array biasanya digunakan untuk menyimpan koleksi data yang terstruktur seperti daftar bilangan, string, atau objek.
+Array adalah suatu kumpulan nilai yang bertipe data sama. Masing-masing elemen array diakses menggunakan indeks, dan elemen array dapat diakses langsung (acak). Indeks dimulai dari 0 pada bahasa pemograman c ini. Array biasanya digunakan untuk menyimpan koleksi data yang terstruktur seperti daftar bilangan, string, atau objek.<br>
+![array](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/2caf5c8b-f4e3-420e-b72b-ef2083349fda)
+
 
 #### Pointer
 Pointer adalah variable yang berisi alamat memory sebagai nilainya dan berbeda dengan variable biasa yang berisi nilai tertentu. Suatu pointer bukan berisi dengan suatu nilai data seperti halnya pada variabel biasa, variabel pointer berisi suatu alamat. Untuk mendeklarasikan variabel pointer digunakan tanda asterisk atau bintang (*) didepan variabel yang dideklarasikan pada tipe sata tertentu. Tanda ini dipakai untuk mengakses nilai dari variabel yang telah ditunjuk.
@@ -54,6 +56,8 @@ Ada 2 tipe operator yang digunakan untuk mengakses sebuah struct.<br>
 2. '->' -Operator digunakan untuk pointer.<br>
 ***
 ## [Jobsheet 3-Single Linked List](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/87df167858d5d79df2410c40b75bd85373bb148a)
+
+![single](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/980d36a7-d752-401d-a6c1-79147c440c08)
 
 Single linked list adalah struktur data linear yang terdiri dari sejumlah simpul(node) yang terhubung satu sama lain dengan menggunakan pointer. Setiap simpul memiliki dua bagian, data pointer yang menunjuk ke simpul berikutnya dalam daftar. Di simpul terakhir, pointer menunjuk ke nilai null, menandakan akhir dari linked list.
 
@@ -72,6 +76,8 @@ Alokasi memori menyediakan fasilitas untuk membuat ukuran buffer dan array secar
 Sebuah data yang berupa simpul atau node beralamat yang saling bertaut. Setiap simpul bisa menyimpan data yang mana isinya bisa char, int, string, atau tipe data lainnya. Linked list ini dibuat demikian dengan tujuan mengurutkan data, linked list ini memiliki kemampuan untuk memutuskan urutan data, Linked list ini memiliki kemampuan untuk memutuskan urutan data kemudian menyambungkannya lagi.
 ***
 ## [Jobsheet 4-Doubly Linked List](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/1a528a0d1b0bcafff9b27204dc753998eb0eca63)
+
+![double](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/9b8c7216-4e6d-4474-8597-3ad41f2f287e)
 
 Doubly linked list (DLL) berisi pointer tambahan, biasanya disebut pointer sebelumnya, bersama dnegan pointer berikutnya dan data yang ada dalam daftar tertaut tunggal. Sama halnya dengan single linked list sebuah dobly link list memiliki head dan tail, perbedaannya doubly link list memiliki 2 arah data yakni next dan previous.
 
@@ -92,7 +98,9 @@ Jenis proses insertion()
 3. Di simpul yang paling akhir.
 4. Penambahan sebelum simpul yang ditentukan.
 ***
-## [Jobsheet 5- Double Linked List and Circular Linked List](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/bfb748b221932ecdda21de74fa1875d444675abf)
+## [Jobsheet 5- Double and Circular Linked List](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/bfb748b221932ecdda21de74fa1875d444675abf)
+
+![double and circular](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/17b8320b-e253-4670-9403-876d3a8bfcc9)
 
 #### Double Linked List
 Double linked list elemen-elemen dihubungkan dengan dua pointer dalam satu node. Struktur ini menyebabkan list melintas baik ke depan (next) maupun ke belakang (prev). Masing-masing elemen pada double linked list terdiri dari tiga bagian, disamping data (info) dan pointer next, masing-masing elemen dilengkapi dengan pointer prev atau back yang menunjuk ke elemen sebelumnya. Untuk menunjukkan head dari double linked list, maka pointer prev dari elemen pertama menunjuk NULL. Untuk menunjukkan tail dari double linked list tersebut, maka pointer next dari elemen terakhit menunjuk NULL.
@@ -104,10 +112,14 @@ circular list adalah bentuk lain dari linked list yang memberikan fleksibelitas 
 ***
 ## [Jobsheet 6- Stack](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/79e3beb60c2f082d28546042e6ee0fc2821bab52)
 
+![stack](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/55d88311-1f30-490f-9ffc-4639a81c9785)
+
 #### Stack
 Stack adalah sebuah kumpulan data dimana data yang diletakkan di atas data yang lain. Dengan demikian stack adalah struktur data yang menggunakan konsep LIFO. Elemen terakhir yang disimpan dalam stack menjadi elemen pertama yang diambil. Dalam proses komputasi, untuk meletakkan sebuah elemen pada bagian atas dari stack, disebut push, untuk memindahkan dari tempat yang atas disebut pop.
 
 #### Stack dengan array
+![stack array](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/8e40bf4e-fdb5-4349-b7e3-662f74acb5b9)
+
 Bentuk penyajian stack bisa menggunakan tipe data array, tetapi ebenarnya penyajian stack memnggunakan array adalah kurang tepat karena banyaknya elemen dalam array adalah statis, sedangkan dalam stack banyaknya elemen sangat bervariasi atau dinamis. Array bisa digunakan untuk penyajian stack, tetapi dengan anggapan bahwa banyaknya elemen maksimal dari suatu stack tidak melebihi batas maksimum banyaknya elemen array. Bila diteruskan menambah data, maka akan terjadi overflow. Ada dua macam penyajian stack menggunakan array, yaitu Single stack dan Double stack.
 
 #### Operasi pada stack
@@ -123,6 +135,7 @@ Bentuk penyajian stack bisa menggunakan tipe data array, tetapi ebenarnya penyaj
 7. Clear digunakan untuk mengosongkan stack.
 ***
 ## [Jobsheet 7-Queue](https://github.com/NajwaKurnia/praktikum-struktur-data/commit/59b9ac253304e102912360cc077842399dcae801)
+![queue](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/109c15b5-690e-4ec9-b122-555b5ceeaca7)
 
 #### Konsep Queue
 Sebuah antrian sangat berguna pada pemograman struktur data. Antrian menggunakan prinsip FIFO First In First Out. Item yang mendapatkan giliran pertama adalah item yang pertama keluar. Dalam istilah pemograman, meletakkan sebuah item ke dalam antrian disebut "enqueue" dan menghapusnya disebut "dequeue".
@@ -152,14 +165,20 @@ Pengurutan data adalah salah satu proses yang banyak dijumpai dalam aplikasi den
 
 #### Teknik Pengurutan Data
 Beberapa teknik terkenal untuk mengurutkan data, yaitu buble sort, insertion sort, selection sort, mergesort, heapsort, dan binary sort. Tiga yang pertama dikenal sebagai cara pengurutan dasar.
-1. Bubble sort
+1. Bubble sort<br>
+  ![bubble](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/06180dde-a82b-4f45-8c0f-86ffaaacd12c)
+   
    Bubble sort adalah salah satu algoritma untuk sorting data, atau kata lainnya mengurutkan data dari yang terbesar ke yang terkecil atau sebaliknya. Bubble sort adalah metode/algoritma pengurutan dengan cara melakukan penukaran data dengan tepat disebelahnya secara terus menerus sampai bisa dipastikan dalam satu iterasi tertentu tidak ada lagi perubahan.
-2. Insertion sort
+2. Insertion sort<br>
+   ![insert](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/6b55406e-5b1c-4173-8f46-24bfe79e0cf5)
+
    Insertion sort bekerja sama halnya dengan saat kita bermain mengurutkan kartu di tangan. Insertion sort adalah sebuah algoritma yang meletakkan sebuah data/elemen yang belum urut pada tempat yang cocok pada setiap siklus pengurutan.
 ***
 ## [Jobshet 9-Selection and Merge Sort](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-9%20selection%20and%20merge%20sort)
 
 #### Selection Sort
+![selection](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/5f4099c6-552b-4da6-8b40-99f4da81cdd7)
+
 Selection sort adalah sebuah algoritma yang digunakan untuk mencari dan memilih elemen/data terkecil dalam sebuah list yang belum tersusun dalam setiap iterasi dan menempatkan elemen terkecil di urutan paling depan dari urutan list data.<br>
 Cara kerja Selection sort:<br>
 1. Tentukan elemen pertaman dari urutan menjadi elemen terkecil masukkan sebagai elemen "minimum".
@@ -168,6 +187,8 @@ Cara kerja Selection sort:<br>
 4. Pada setiap pengulangan, indeksasi (pemberian alamat) dimulai dari elemen pertama dari  list. Langkah 1-3 dilakukan berulang kali sampai keseluruhan elemen digantikan pada posisi yang terurut.
 
 #### Merge Sort
+![merge](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/6d8f183f-b686-469c-9efa-7e40fe71f755)
+
 Merge sort adalah sebuah teknik pengurutan berdasarkan teknik membagi dan menggabungkan (divide and conquer). Menggunakan merge sort hal pertama yang dilakukan adalah membagi sama banyak data kemudian menggabungkannya dalam list data yang terurut.
 
 #### Divide and Conquer strategy
@@ -176,6 +197,8 @@ Menggunakan teknik Divide and Conquer, langkah pertama bagi sebuah permasalahan 
 ## [Jobsheet 10-Shell and Quick sort](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-10%20shell%20and%20Quick%20short)
 
 #### Shell sort
+![shell](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/40a2c59c-0ca3-46c4-b452-6be82a18879e)
+
 Shell sort adalah sebuah algoritma dengan pengurutan elemen pertama memiliki jarak interval dengan elemen yang akan dibandingkan. pada prinsipnya sama dengan insertion sort. Dalam pengurutan Shell sort, elemen/data diurutkan dengan interval yang terukur.Jarak interval diantara elemen semakin lama semakin mengecil berdasarkan berapa kali pengulangan pengurutan dilakukan.<br>
 Beberapa macam formula urutan yang digunakan:
 - Shell's original sequence: N/2, N'4, ..., 1
@@ -197,6 +220,8 @@ Shell sort digunakan saat:
 - pengurutan insertion kurang baik saat elemen yang dekat berjauhan. Shell sort membantu dalam mengurangi jarak pertukaran elemen data sehingga terjadi pengurangan data yang akan di tukar.
 
 #### Quick sort
+![quick](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/7313bd5b-feeb-4751-99b3-f50f850087c5)
+
 Seperti halnya Merge sort, Quick sort menggunakan algoritma divide dan conquer. Algoritma ini mengambil sebuah elemen sebagai pivot dan memisahkan array yang ada disekitar pivot. Terdapat banyak versi dari Quick sort yang mengambil pivot dengan cara yang berbeda-beda. Diantaranya:
 1. Selalu mengambil elemen pertama sebagai pivot.
 2. Selalu mengambil elemen terakhir sebgai pivot.
@@ -210,6 +235,8 @@ Algoritma penacarian adalah algoritma yang menerima sebuah argumen kunci dan den
 Ada dua macam teknik pencarian yaitu pencarisan sekuensial dan pencarian biner. Perbedaan dari dua teknik ini terletak pada keadaan data. Pencarian biner digunakan apabila data dalam keadaan acak atau tidak terurut. Pencarian biner data yang sudah dalam keadaan terurut.<br>
 
 #### Linear search
+![linear search](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/0f63f4d5-a7b1-4743-a0a9-a6788656377f)
+
 Algoritma pencarian dapat dijelaskan sebagi berikut:<br>
 Pencarian dimulai dari data paling awal, kemudian ditelusuri dengan menaikkan indeks data, apabila data sama dengan kunci pencarian dihetikan dan diberikan nilai pengembalian true, apabila sampai indeks terakhir data tidak diteukan maka diberikan nilai pengembalian false.<br>
 Algoritma pencarian berurutan dapat dituliskan sebagai berikut:<br>
@@ -217,9 +244,11 @@ Algoritma pencarian berurutan dapat dituliskan sebagai berikut:<br>
 2. ketemu <- false
 3. Selama (tidak ketemu) dan (i <= N)kerjakan baris 4
 4. Jika(data[i]=x) maka ketemu <- true, jika tidak i <- i+1
-5. Jika(ketemu) maka i adalah indeks dari data yang dicari, jika tidak data tidka ditemukan.
+5. Jika(ketemu) maka i adalah indeks dari data yang dicari, jika tidak data tidak ditemukan.
 
 #### Binary search
+![binary](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/3278f45c-a9fc-49b3-8dba-4f094e6ce3fa)
+
 Salah satu syarat agar pencarian biner dapat dilakukan adalah data udah dalam keadaan terurut. Dengan kata lain, apabila data belum dalam keadaan urut, pencarian biner tidak dapat dilakukan.<br>
 Algoritma binary search:<br>
 1. Data diambil dari posisi 1 sampai posisi akhir N.
@@ -232,6 +261,8 @@ Algoritma binary search:<br>
 ## [Jobsheet-12 Tree](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-12%20Tree)
 
 #### Tree Traversal
+![tree traversal](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/c367110a-2cce-4b11-a763-9daca6c45ee6)
+
 Traverse atau melintasi sebuah pohon data/tree artinya mengunjungi semua simpul yang ada pada pohon tersebut. Ada beberapa hal yang dapat dilakukan contoh jika ingin menambah nilai semua data pada pohon tersebut atau mencari nilai tertinggi diantaranya. Untuk operasi-operasi tersebut, harus dilakukan mengunjungi setiap simpul dari pohon data.<br>
 Struktur data linear seperti array, stack/tumpukan, queues/antrian dan LinkedList hanya memiliki satu jalan untuk membaca sebuah data. Berbeda dengan struktur data yang bentuknya hirarki seperti tree/pohon dapat dijelajahi dnegan berbagai cara.<br>
 Tujuan mengunjungi dan mendata setiap simpul/node, yang harus dilakukan adalah mengunjungi semua node/simpul di dalam subtree, mengunjungi root node atau node paling atas dan mengunjungi node yang ada di kanan subtree.<br>
@@ -252,6 +283,8 @@ Berdasarkan urutan yang akan dilakukan, terdapat 3 cara melintasi tree tersebut:
 ## [Jobsheet-13 Graphs](https://github.com/NajwaKurnia/praktikum-struktur-data/tree/main/job-13%20Graphs)
 
 #### Depth First Search/Traversal
+![graph dfs](https://github.com/NajwaKurnia/praktikum-struktur-data/assets/153745958/7fa7ee74-c096-4998-9820-be8a46939bfb)
+
 Traversal artinya mengunjungi semua simpul/node dari sebuah graph. DFS atau DFT adalah sebuah algoritma pencarian rekursif untuk mencari semua titik yang ada pada sebuah graph atau pohon simpul.<br>
 
 Algoritma DFS.<br>
